@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-style: normal;
 }
-body{
-    margin-left: ;
+
+/* hover effects*/
+.top-right-1:hover {
+    text-decoration: underline rgb(28,114,156) ; 
 
 }
-/* hover effects*/
-.list-2:hover {
+.list-2 :hover {
     text-decoration: underline rgb(28,114,156) ;  
 }
 
@@ -34,27 +35,80 @@ body{
 .list-8:hover {
     text-decoration: underline ;  
 }
+.fa-magnifying-glass:hover {
+    color:rgb(28,114,156);
+   }
+.fa-cart-shopping:hover {
+    color:rgb(28,114,156);
+  
+}
 
+.top-right:hover{
+    text-decoration: 2px underline   rgb(28,114,156) ; 
+    
+}
 
+.contact-container-2:hover {
+    background-color:white ;
+    transition: 1s;
+    
+}
+.cursor-remove:hover{
+    text-decoration: blue;
+}
+.bottom-cursor:hover{
+    text-decoration: underline;
+}    
+         
 
+.fa-facebook-f:hover {
+       text-decoration-color: #ffff;
+}
+ /*end bar hover effect*/
+.hover-effect-1:hover{
+    text-decoration: 2px underline ;
+}
+.hover-effect-2:hover{
+    text-decoration: 2px underline ;
+}
+.hover-effect-3:hover{
+    text-decoration: 2px underline ;
+}
+.hover-effect-4:hover{
+    text-decoration: 2px underline ;
+    
+}
+.hover-effect-5:hover a{
+    color:rgb(88,35,140) ;
+    transition: 1s;
 
+}
+.hover-effect-6:hover a{
+    color:rgb(88,35,140) ;
+    transition: 1s;
 
+}
+.hover-effect-7:hover a{
+    color:rgb(88,35,140) ;
+    transition: 1s;
+}
+.hover-effect-8:hover a {
+color:rgb(88,35,140) ;
+transition: 1s;
+}
 
-
-
-
-.main{
+.main {
     border: 1px soloid;
     background-color:#ffff ;
     display: flex;
      position: relative;
-  
-     
+       
  } 
  .main a{
     text-decoration: none;
     color: black;
- }
+    cursor: pointer;
+}
  .Footer-container{
     display: flex;
     justify-content: space-around;
@@ -83,8 +137,8 @@ body{
  .bottom-list a{
     text-decoration: none;
     color: #ffff;
-
- }
+    cursor: pointer;
+}
  .fa-envelope{
     padding-right: 10px;
  }
@@ -104,27 +158,30 @@ body{
  .end-bar-left a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
  }
      
 
  .end-bar-right{
     display: flex;
-    list-style: none;
     gap: 18px;
     margin-right: 14px;
+    font-weight: lighter;
  }
  .end-bar-right li{
-    text-decoration: underline;
+    text-decoration-line: underline;
+   list-style: none;
+
  }
  .end-bar-right a{
     text-decoration: none;
     color: black;
-    
- } 
+    cursor: pointer;
+}
 
 .COPY-1{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 120px;
  
 }
 .fa-chevron-right{
@@ -147,6 +204,7 @@ body{
  .fa-globe a {
         text-decoration: none;
         color: none;
+        cursor: pointer;
     }
  
  .top-right{
@@ -164,21 +222,19 @@ body{
     gap: 10px;
  }
  .fa-globe{
-    padding-top: 0px;
-    padding-left: 6px;
+    padding-left: 7px;
+    padding-right: 5px;    
  }
+
 .main-container ul{
  display: flex;
  align-items: center;
  margin-bottom: 30px;
  margin-top: 15px;
- font-size: 20px;
- 
+ font-size: 20px; 
  
 }
-.list-1{
 
-}
 .contact-container-2 {
  border: 1px solid lightgrey;
  height: 88px;
@@ -186,7 +242,7 @@ body{
  background-color:rgb(241,241,241);
  align-items: center;
  text-align: center;
- padding-top: 25px;
+ padding-top: 30px;
  color:rgb(88,35,140) ;
  font-size: 25px;
  margin-left: 25px;
@@ -194,9 +250,26 @@ body{
 
 
 }
-.contact-container-2 a{
+.cursor-remove{
+    padding-left: 7px;
+    text-decoration-line: none;
+      
+}
+.btn a{
     text-decoration: none;
+}
+.contact-container-2  {
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact-container-2:hover{
+    color:  rgb(28,114,156);
 
+}
+
+.first-cursor{
+    list-style: none;
+    text-decoration: none;
 }
 .text-1{
     padding-left: 10px;
@@ -219,12 +292,8 @@ body{
     display: flex;
     padding-left: 50px;
     gap: 15px;
-   }
-   .sub-main li{
-
-    
-    
-   }
+   }       
+   
 .nav-right{
     display: flex;
     justify-content: space-between;
@@ -252,27 +321,53 @@ h1{
     width: 95%;
     justify-content: space-between;
     margin-left: 30px;
-   
-}
-.bottom-container a{
-    text-decoration: none;
-    color: black;
-}
-.bottom-container div{
-    padding: 13px;
-    list-style: none;
-}
+    margin-bottom: 40px;
+}   
 .bottom-container div li{
     margin-bottom: 15px;
     font-size: 25px;
-    font-weight: bold;
-    list-style: none;
+}  
+
+.list-items{
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(88,35,140);
+    font-weight: bold;    
+    
+}
+.list-items:hover {
+color:  rgb(28,114,156);
+    
+
+}
+
+.img-1{
+    margin-bottom: 20px;
 }
 p  {
     margin-bottom: 60px;
     font-size: 20px;
     margin-left: 25px;
 }
+.sub-container-1{
+    list-style: none;
+
+}
+.sub-container-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 /*
 .sub-mainu{
     color: black;
