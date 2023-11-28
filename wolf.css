@@ -43,8 +43,8 @@
   
 }
 
-.fa-globe:hover{
-    text-decoration: underline  rgb(28,114,156) ; 
+.top-right:hover{
+    text-decoration: 2px underline   rgb(28,114,156) ; 
     
 }
 
@@ -82,11 +82,13 @@
     color:rgb(88,35,140) ;
     transition: 1s;
 
-}.hover-effect-6:hover a{
+}
+.hover-effect-6:hover a{
     color:rgb(88,35,140) ;
     transition: 1s;
 
-}.hover-effect-7:hover a{
+}
+.hover-effect-7:hover a{
     color:rgb(88,35,140) ;
     transition: 1s;
 }
@@ -95,33 +97,7 @@ color:rgb(88,35,140) ;
 transition: 1s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main{
+.main {
     border: 1px soloid;
     background-color:#ffff ;
     display: flex;
@@ -246,10 +222,10 @@ transition: 1s;
     gap: 10px;
  }
  .fa-globe{
-    padding-top: 0px;
     padding-left: 7px;
-    padding-right: 5px;
+    padding-right: 5px;    
  }
+
 .main-container ul{
  display: flex;
  align-items: center;
@@ -276,25 +252,21 @@ transition: 1s;
 }
 .cursor-remove{
     padding-left: 7px;
+    text-decoration-line: none;
+      
+}
+.btn a{
     text-decoration: none;
-   
 }
-.cursor-remove a{
-    text-decoration: none;
-}
-
-.contact-container-2 a {
-    text-decoration: none;
-    cursor: pointer;
-}
-. {
-    list-style: none;
-}
-.cursor-remove a {
+.contact-container-2  {
     text-decoration: none;
     cursor: pointer;
+}
+.contact-container-2:hover{
+    color:  rgb(28,114,156);
 
 }
+
 .first-cursor{
     list-style: none;
     text-decoration: none;
@@ -350,35 +322,27 @@ h1{
     justify-content: space-between;
     margin-left: 30px;
     margin-bottom: 40px;
-
-   
-}
-.bottom-container a{
-     list-style: none;
-    cursor: pointer;
-    text-decoration: none;
-        
-}
-
-.bottom-container div{
-    padding: 14px;
-    list-style: none;
-    
-}
+}   
 .bottom-container div li{
     margin-bottom: 15px;
     font-size: 25px;
-}
-    
-
+}  
 
 .list-items{
     padding-top: 20px;
     margin-top: 30px;
     font-size: 20px;
-    
+    text-decoration: none;
+    color: rgb(88,35,140);
+    font-weight: bold;    
     
 }
+.list-items:hover {
+color:  rgb(28,114,156);
+    
+
+}
+
 .img-1{
     margin-bottom: 20px;
 }
@@ -387,6 +351,23 @@ p  {
     font-size: 20px;
     margin-left: 25px;
 }
+.sub-container-1{
+    list-style: none;
+
+}
+.sub-container-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 /*
 .sub-mainu{
     color: black;
